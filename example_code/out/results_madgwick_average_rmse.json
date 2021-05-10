@@ -1,0 +1,672 @@
+{
+  "tagp_parameters": {
+    "beta": 0.12
+  },
+  "tagp_parameter_ind": [
+    11
+  ],
+  "groups": {
+    "all_trials": {
+      "tagp_parameters": {
+        "total_rmse_deg": 4.958704334872709,
+        "heading_rmse_deg": 3.9202515866629617,
+        "inclination_rmse_deg": 2.7134116991962465
+      },
+      "minimum_value": {
+        "total_rmse_deg": 4.021947740201551,
+        "heading_rmse_deg": 2.795028044654242,
+        "inclination_rmse_deg": 1.8069504132173346
+      }
+    },
+    "undisturbed": {
+      "tagp_parameters": {
+        "total_rmse_deg": 4.285189918518949,
+        "heading_rmse_deg": 3.359465292071755,
+        "inclination_rmse_deg": 2.444315545401644
+      },
+      "minimum_value": {
+        "total_rmse_deg": 3.6002225574419238,
+        "heading_rmse_deg": 2.2549171660670786,
+        "inclination_rmse_deg": 1.8416356516338623
+      }
+    },
+    "rotation": {
+      "tagp_parameters": {
+        "total_rmse_deg": 2.5873539810049535,
+        "heading_rmse_deg": 2.221491910556651,
+        "inclination_rmse_deg": 1.2716881780810472
+      },
+      "minimum_value": {
+        "total_rmse_deg": 2.1596421762941818,
+        "heading_rmse_deg": 1.525223740488021,
+        "inclination_rmse_deg": 1.1996503434381054
+      }
+    },
+    "translation": {
+      "tagp_parameters": {
+        "total_rmse_deg": 5.137211341194166,
+        "heading_rmse_deg": 3.751724832346387,
+        "inclination_rmse_deg": 3.2739656651759828
+      },
+      "minimum_value": {
+        "total_rmse_deg": 4.225695852815084,
+        "heading_rmse_deg": 2.1622521851176777,
+        "inclination_rmse_deg": 2.290749275038488
+      }
+    },
+    "combined": {
+      "tagp_parameters": {
+        "total_rmse_deg": 5.807656045228751,
+        "heading_rmse_deg": 4.701750206304607,
+        "inclination_rmse_deg": 3.0616745909849072
+      },
+      "minimum_value": {
+        "total_rmse_deg": 5.067415311836171,
+        "heading_rmse_deg": 3.7351622978183014,
+        "inclination_rmse_deg": 2.1888046842579003
+      }
+    },
+    "slow": {
+      "tagp_parameters": {
+        "total_rmse_deg": 2.54963619869066,
+        "heading_rmse_deg": 1.641888036116648,
+        "inclination_rmse_deg": 1.8133205106816117
+      },
+      "minimum_value": {
+        "total_rmse_deg": 2.2067973665073777,
+        "heading_rmse_deg": 1.2508106620673083,
+        "inclination_rmse_deg": 1.0467965672357447
+      }
+    },
+    "fast": {
+      "tagp_parameters": {
+        "total_rmse_deg": 6.1785212492407195,
+        "heading_rmse_deg": 5.233185934931873,
+        "inclination_rmse_deg": 3.132673765096224
+      },
+      "minimum_value": {
+        "total_rmse_deg": 5.120322765734156,
+        "heading_rmse_deg": 3.350306079521373,
+        "inclination_rmse_deg": 2.7087328346136275
+      }
+    },
+    "no_breaks": {
+      "tagp_parameters": {
+        "total_rmse_deg": 4.726490641546567,
+        "heading_rmse_deg": 3.778953591384887,
+        "inclination_rmse_deg": 2.5817323460694377
+      },
+      "minimum_value": {
+        "total_rmse_deg": 3.8518064557178344,
+        "heading_rmse_deg": 2.4369855266027116,
+        "inclination_rmse_deg": 1.8892363229437505
+      }
+    },
+    "with_breaks": {
+      "tagp_parameters": {
+        "total_rmse_deg": 3.4577510628421644,
+        "heading_rmse_deg": 2.572924730859634,
+        "inclination_rmse_deg": 2.18665904414953
+      },
+      "minimum_value": {
+        "total_rmse_deg": 3.128502748174592,
+        "heading_rmse_deg": 1.913538990062765,
+        "inclination_rmse_deg": 1.7523843929278233
+      }
+    },
+    "disturbed": {
+      "tagp_parameters": {
+        "total_rmse_deg": 5.926881308381238,
+        "heading_rmse_deg": 4.7263818851378225,
+        "inclination_rmse_deg": 3.100237420275988
+      },
+      "minimum_value": {
+        "total_rmse_deg": 4.628177690418514,
+        "heading_rmse_deg": 3.5714374326232905,
+        "inclination_rmse_deg": 1.757090382993575
+      }
+    },
+    "tapping": {
+      "tagp_parameters": {
+        "total_rmse_deg": 2.842269892473614,
+        "heading_rmse_deg": 2.000436917554376,
+        "inclination_rmse_deg": 2.0192431547370084
+      },
+      "minimum_value": {
+        "total_rmse_deg": 2.8268736247956823,
+        "heading_rmse_deg": 1.66574558822802,
+        "inclination_rmse_deg": 1.3478421356772023
+      }
+    },
+    "vibration": {
+      "tagp_parameters": {
+        "total_rmse_deg": 6.76035162624291,
+        "heading_rmse_deg": 6.38283259675253,
+        "inclination_rmse_deg": 1.6916341322052566
+      },
+      "minimum_value": {
+        "total_rmse_deg": 5.666784356921939,
+        "heading_rmse_deg": 5.110336862168531,
+        "inclination_rmse_deg": 1.6246607264446966
+      }
+    },
+    "stationary_magnet": {
+      "tagp_parameters": {
+        "total_rmse_deg": 6.635652162462202,
+        "heading_rmse_deg": 5.0063331555866855,
+        "inclination_rmse_deg": 3.7976027469045683
+      },
+      "minimum_value": {
+        "total_rmse_deg": 4.153434405277195,
+        "heading_rmse_deg": 3.2380047133980425,
+        "inclination_rmse_deg": 1.6235170960530203
+      }
+    },
+    "attached_magnet": {
+      "tagp_parameters": {
+        "total_rmse_deg": 6.924001634106648,
+        "heading_rmse_deg": 5.407185655147897,
+        "inclination_rmse_deg": 3.7873724334252623
+      },
+      "minimum_value": {
+        "total_rmse_deg": 5.577784630762072,
+        "heading_rmse_deg": 4.13234917180981,
+        "inclination_rmse_deg": 1.9515144224785086
+      }
+    },
+    "office_environment": {
+      "tagp_parameters": {
+        "total_rmse_deg": 5.668783714051671,
+        "heading_rmse_deg": 4.785077758328156,
+        "inclination_rmse_deg": 2.9299548970952554
+      },
+      "minimum_value": {
+        "total_rmse_deg": 4.809616707702523,
+        "heading_rmse_deg": 3.885924867529147,
+        "inclination_rmse_deg": 2.079477555058905
+      }
+    },
+    "mixed": {
+      "tagp_parameters": {
+        "total_rmse_deg": 3.124673648181366,
+        "heading_rmse_deg": 2.2241547188487982,
+        "inclination_rmse_deg": 2.1948612015961824
+      },
+      "minimum_value": {
+        "total_rmse_deg": 2.941632892936787,
+        "heading_rmse_deg": 2.205219573480024,
+        "inclination_rmse_deg": 1.757844796930966
+      }
+    }
+  },
+  "trials": {
+    "01_undisturbed_slow_rotation_A": {
+      "tagp_parameters": {
+        "total_rmse_deg": 2.309603165739183,
+        "heading_rmse_deg": 2.174349147344144,
+        "inclination_rmse_deg": 0.7788086514276203
+      },
+      "minimum_value": {
+        "total_rmse_deg": 1.3840944179797434,
+        "heading_rmse_deg": 1.131827997693341,
+        "inclination_rmse_deg": 0.7642118541308316
+      }
+    },
+    "02_undisturbed_slow_rotation_B": {
+      "tagp_parameters": {
+        "total_rmse_deg": 1.4968208029725296,
+        "heading_rmse_deg": 1.2637374170489573,
+        "inclination_rmse_deg": 0.8021668950285171
+      },
+      "minimum_value": {
+        "total_rmse_deg": 1.4835498008950871,
+        "heading_rmse_deg": 1.1998357310760939,
+        "inclination_rmse_deg": 0.7698123644836724
+      }
+    },
+    "03_undisturbed_slow_rotation_C": {
+      "tagp_parameters": {
+        "total_rmse_deg": 2.4706961452056797,
+        "heading_rmse_deg": 2.287089496836219,
+        "inclination_rmse_deg": 0.9347051312825437
+      },
+      "minimum_value": {
+        "total_rmse_deg": 2.240104258533427,
+        "heading_rmse_deg": 1.8371008111081206,
+        "inclination_rmse_deg": 0.8581097473468402
+      }
+    },
+    "04_undisturbed_slow_rotation_with_breaks_A": {
+      "tagp_parameters": {
+        "total_rmse_deg": 1.5310750012936927,
+        "heading_rmse_deg": 1.3671222304960753,
+        "inclination_rmse_deg": 0.6893391253891785
+      },
+      "minimum_value": {
+        "total_rmse_deg": 1.3019573751898867,
+        "heading_rmse_deg": 1.0903414710632573,
+        "inclination_rmse_deg": 0.6893391253891785
+      }
+    },
+    "05_undisturbed_slow_rotation_with_breaks_B": {
+      "tagp_parameters": {
+        "total_rmse_deg": 1.7858627911654175,
+        "heading_rmse_deg": 1.632848954589384,
+        "inclination_rmse_deg": 0.7232921656490349
+      },
+      "minimum_value": {
+        "total_rmse_deg": 1.6828365461879706,
+        "heading_rmse_deg": 1.393049063992849,
+        "inclination_rmse_deg": 0.6275455367406799
+      }
+    },
+    "06_undisturbed_fast_rotation_A": {
+      "tagp_parameters": {
+        "total_rmse_deg": 2.306990646024209,
+        "heading_rmse_deg": 1.7679204262706407,
+        "inclination_rmse_deg": 1.482193813706576
+      },
+      "minimum_value": {
+        "total_rmse_deg": 2.0585699829748374,
+        "heading_rmse_deg": 1.319194717921144,
+        "inclination_rmse_deg": 1.4366540778763652
+      }
+    },
+    "07_undisturbed_fast_rotation_B": {
+      "tagp_parameters": {
+        "total_rmse_deg": 4.996321474071987,
+        "heading_rmse_deg": 4.326588111600188,
+        "inclination_rmse_deg": 2.4993232473704006
+      },
+      "minimum_value": {
+        "total_rmse_deg": 4.187574037986297,
+        "heading_rmse_deg": 2.816819388368578,
+        "inclination_rmse_deg": 2.3777950803464583
+      }
+    },
+    "08_undisturbed_fast_rotation_with_breaks_A": {
+      "tagp_parameters": {
+        "total_rmse_deg": 3.904664963855049,
+        "heading_rmse_deg": 3.5271024928555983,
+        "inclination_rmse_deg": 1.6753175828234261
+      },
+      "minimum_value": {
+        "total_rmse_deg": 2.635836186372751,
+        "heading_rmse_deg": 1.6899000551904115,
+        "inclination_rmse_deg": 1.6748051362147736
+      }
+    },
+    "09_undisturbed_fast_rotation_with_breaks_B": {
+      "tagp_parameters": {
+        "total_rmse_deg": 2.4841508387168334,
+        "heading_rmse_deg": 1.646668917968651,
+        "inclination_rmse_deg": 1.8600469900521273
+      },
+      "minimum_value": {
+        "total_rmse_deg": 2.4622569805276355,
+        "heading_rmse_deg": 1.2489444279783941,
+        "inclination_rmse_deg": 1.598580168414148
+      }
+    },
+    "10_undisturbed_slow_translation_A": {
+      "tagp_parameters": {
+        "total_rmse_deg": 3.5688761461645475,
+        "heading_rmse_deg": 1.7066180628217769,
+        "inclination_rmse_deg": 3.134492688253801
+      },
+      "minimum_value": {
+        "total_rmse_deg": 1.9013340385712956,
+        "heading_rmse_deg": 0.3716214606029337,
+        "inclination_rmse_deg": 1.3317575875064105
+      }
+    },
+    "11_undisturbed_slow_translation_B": {
+      "tagp_parameters": {
+        "total_rmse_deg": 4.240924420975312,
+        "heading_rmse_deg": 2.6078991974338144,
+        "inclination_rmse_deg": 3.344586776964465
+      },
+      "minimum_value": {
+        "total_rmse_deg": 4.15382343637231,
+        "heading_rmse_deg": 2.0084137099742043,
+        "inclination_rmse_deg": 1.716851923637185
+      }
+    },
+    "12_undisturbed_slow_translation_C": {
+      "tagp_parameters": {
+        "total_rmse_deg": 3.3397389570808538,
+        "heading_rmse_deg": 1.9299098425494536,
+        "inclination_rmse_deg": 2.7258041008461484
+      },
+      "minimum_value": {
+        "total_rmse_deg": 3.2906717610799556,
+        "heading_rmse_deg": 1.5371018641523597,
+        "inclination_rmse_deg": 1.1369241602473195
+      }
+    },
+    "13_undisturbed_slow_translation_with_breaks_A": {
+      "tagp_parameters": {
+        "total_rmse_deg": 2.1660696982078163,
+        "heading_rmse_deg": 1.1339447962787648,
+        "inclination_rmse_deg": 1.84556960880317
+      },
+      "minimum_value": {
+        "total_rmse_deg": 2.152073669323111,
+        "heading_rmse_deg": 1.1276807920821748,
+        "inclination_rmse_deg": 1.4308874955529756
+      }
+    },
+    "14_undisturbed_slow_translation_with_breaks_B": {
+      "tagp_parameters": {
+        "total_rmse_deg": 3.0954061131482526,
+        "heading_rmse_deg": 1.5968606758828954,
+        "inclination_rmse_deg": 2.6518049757721656
+      },
+      "minimum_value": {
+        "total_rmse_deg": 2.792961248341177,
+        "heading_rmse_deg": 1.3208675446048037,
+        "inclination_rmse_deg": 1.1344506979571831
+      }
+    },
+    "15_undisturbed_fast_translation_A": {
+      "tagp_parameters": {
+        "total_rmse_deg": 12.304310102899514,
+        "heading_rmse_deg": 11.40864677671004,
+        "inclination_rmse_deg": 4.621700450859573
+      },
+      "minimum_value": {
+        "total_rmse_deg": 7.258250256838241,
+        "heading_rmse_deg": 3.4165737980138124,
+        "inclination_rmse_deg": 4.350689490141846
+      }
+    },
+    "16_undisturbed_fast_translation_B": {
+      "tagp_parameters": {
+        "total_rmse_deg": 4.82479753592094,
+        "heading_rmse_deg": 3.702794360635037,
+        "inclination_rmse_deg": 3.093830480377385
+      },
+      "minimum_value": {
+        "total_rmse_deg": 4.4820482853554635,
+        "heading_rmse_deg": 2.24048193103858,
+        "inclination_rmse_deg": 2.651715137149822
+      }
+    },
+    "17_undisturbed_fast_translation_with_breaks_A": {
+      "tagp_parameters": {
+        "total_rmse_deg": 8.233335016238001,
+        "heading_rmse_deg": 6.810280450242491,
+        "inclination_rmse_deg": 4.630452810126718
+      },
+      "minimum_value": {
+        "total_rmse_deg": 7.610564370571282,
+        "heading_rmse_deg": 4.577708872126116,
+        "inclination_rmse_deg": 3.6496815648082532
+      }
+    },
+    "18_undisturbed_fast_translation_with_breaks_B": {
+      "tagp_parameters": {
+        "total_rmse_deg": 4.461444080112256,
+        "heading_rmse_deg": 2.868569328563213,
+        "inclination_rmse_deg": 3.4174490945804177
+      },
+      "minimum_value": {
+        "total_rmse_deg": 4.389535608882923,
+        "heading_rmse_deg": 2.8598196934641145,
+        "inclination_rmse_deg": 3.213785418345394
+      }
+    },
+    "19_undisturbed_slow_combined_240s": {
+      "tagp_parameters": {
+        "total_rmse_deg": 2.243584111370526,
+        "heading_rmse_deg": 0.9257271908250496,
+        "inclination_rmse_deg": 2.0437270266246643
+      },
+      "minimum_value": {
+        "total_rmse_deg": 1.9158363027799692,
+        "heading_rmse_deg": 0.9153380771643219,
+        "inclination_rmse_deg": 0.9875140595747383
+      }
+    },
+    "20_undisturbed_slow_combined_360s": {
+      "tagp_parameters": {
+        "total_rmse_deg": 2.346977030964104,
+        "heading_rmse_deg": 1.0765494212932407,
+        "inclination_rmse_deg": 2.0855489821380315
+      },
+      "minimum_value": {
+        "total_rmse_deg": 2.1823255428345987,
+        "heading_rmse_deg": 1.0765494212932407,
+        "inclination_rmse_deg": 1.1141542542619212
+      }
+    },
+    "21_undisturbed_fast_combined": {
+      "tagp_parameters": {
+        "total_rmse_deg": 7.158391853579409,
+        "heading_rmse_deg": 5.544467079848488,
+        "inclination_rmse_deg": 4.530021023930903
+      },
+      "minimum_value": {
+        "total_rmse_deg": 5.614181782256379,
+        "heading_rmse_deg": 4.09009621801364,
+        "inclination_rmse_deg": 3.316724051461708
+      }
+    },
+    "22_undisturbed_fast_combined_240s": {
+      "tagp_parameters": {
+        "total_rmse_deg": 8.42242917511313,
+        "heading_rmse_deg": 7.773700442466366,
+        "inclination_rmse_deg": 3.2440911511887083
+      },
+      "minimum_value": {
+        "total_rmse_deg": 7.977561191997823,
+        "heading_rmse_deg": 6.975405506278512,
+        "inclination_rmse_deg": 2.6877641255169746
+      }
+    },
+    "23_undisturbed_fast_combined_360s": {
+      "tagp_parameters": {
+        "total_rmse_deg": 8.866898055116584,
+        "heading_rmse_deg": 8.188306897089891,
+        "inclination_rmse_deg": 3.4049847710422285
+      },
+      "minimum_value": {
+        "total_rmse_deg": 7.6471717393120855,
+        "heading_rmse_deg": 5.618422266341795,
+        "inclination_rmse_deg": 2.837866930474159
+      }
+    },
+    "24_disturbed_tapping_A": {
+      "tagp_parameters": {
+        "total_rmse_deg": 1.76842896572884,
+        "heading_rmse_deg": 1.2425175833551663,
+        "inclination_rmse_deg": 1.258392621656577
+      },
+      "minimum_value": {
+        "total_rmse_deg": 1.7455453400188565,
+        "heading_rmse_deg": 1.2425175833551663,
+        "inclination_rmse_deg": 1.2057496666569725
+      }
+    },
+    "25_disturbed_tapping_B": {
+      "tagp_parameters": {
+        "total_rmse_deg": 3.9161108192183884,
+        "heading_rmse_deg": 2.7583562517535856,
+        "inclination_rmse_deg": 2.7800936878174394
+      },
+      "minimum_value": {
+        "total_rmse_deg": 3.908201909572508,
+        "heading_rmse_deg": 2.088973593100874,
+        "inclination_rmse_deg": 1.4899346046974322
+      }
+    },
+    "26_disturbed_phone_vibration_A": {
+      "tagp_parameters": {
+        "total_rmse_deg": 2.903749412429251,
+        "heading_rmse_deg": 2.2644494906076797,
+        "inclination_rmse_deg": 1.817806070572848
+      },
+      "minimum_value": {
+        "total_rmse_deg": 2.655539512477548,
+        "heading_rmse_deg": 1.990293043033336,
+        "inclination_rmse_deg": 1.7557206885741676
+      }
+    },
+    "27_disturbed_phone_vibration_B": {
+      "tagp_parameters": {
+        "total_rmse_deg": 10.616953840056569,
+        "heading_rmse_deg": 10.50121570289738,
+        "inclination_rmse_deg": 1.5654621938376652
+      },
+      "minimum_value": {
+        "total_rmse_deg": 8.67802920136633,
+        "heading_rmse_deg": 8.230380681303725,
+        "inclination_rmse_deg": 1.4936007643152256
+      }
+    },
+    "28_disturbed_stationary_magnet_A": {
+      "tagp_parameters": {
+        "total_rmse_deg": 8.328644037830056,
+        "heading_rmse_deg": 7.461339892964451,
+        "inclination_rmse_deg": 3.702850917449405
+      },
+      "minimum_value": {
+        "total_rmse_deg": 5.06033456996175,
+        "heading_rmse_deg": 4.20163336111971,
+        "inclination_rmse_deg": 1.9457356331131965
+      }
+    },
+    "29_disturbed_stationary_magnet_B": {
+      "tagp_parameters": {
+        "total_rmse_deg": 9.159425002532753,
+        "heading_rmse_deg": 8.404104102555976,
+        "inclination_rmse_deg": 3.6472916344639628
+      },
+      "minimum_value": {
+        "total_rmse_deg": 6.751144968576167,
+        "heading_rmse_deg": 6.480512802856858,
+        "inclination_rmse_deg": 1.793389209486768
+      }
+    },
+    "30_disturbed_stationary_magnet_C": {
+      "tagp_parameters": {
+        "total_rmse_deg": 5.565958136647938,
+        "heading_rmse_deg": 1.8065212771441777,
+        "inclination_rmse_deg": 5.264757250256438
+      },
+      "minimum_value": {
+        "total_rmse_deg": 2.8441283271753126,
+        "heading_rmse_deg": 1.2234914659348357,
+        "inclination_rmse_deg": 1.2558329142113034
+      }
+    },
+    "31_disturbed_stationary_magnet_D": {
+      "tagp_parameters": {
+        "total_rmse_deg": 3.488581472838062,
+        "heading_rmse_deg": 2.3533673496821392,
+        "inclination_rmse_deg": 2.5755111854484682
+      },
+      "minimum_value": {
+        "total_rmse_deg": 1.9581297553955486,
+        "heading_rmse_deg": 1.0463812236807664,
+        "inclination_rmse_deg": 1.4991106274008141
+      }
+    },
+    "32_disturbed_attached_magnet_1cm": {
+      "tagp_parameters": {
+        "total_rmse_deg": 15.762033356947285,
+        "heading_rmse_deg": 14.963540329632599,
+        "inclination_rmse_deg": 4.971220055073343
+      },
+      "minimum_value": {
+        "total_rmse_deg": 9.94682446127168,
+        "heading_rmse_deg": 9.680380185740328,
+        "inclination_rmse_deg": 2.2893543498371653
+      }
+    },
+    "33_disturbed_attached_magnet_2cm": {
+      "tagp_parameters": {
+        "total_rmse_deg": 7.087643736137409,
+        "heading_rmse_deg": 5.1167311763368675,
+        "inclination_rmse_deg": 4.906241176598498
+      },
+      "minimum_value": {
+        "total_rmse_deg": 6.367560653713872,
+        "heading_rmse_deg": 4.732463580321686,
+        "inclination_rmse_deg": 3.025401914649384
+      }
+    },
+    "34_disturbed_attached_magnet_3cm": {
+      "tagp_parameters": {
+        "total_rmse_deg": 5.373848924432412,
+        "heading_rmse_deg": 4.253103621374474,
+        "inclination_rmse_deg": 3.2853645006029994
+      },
+      "minimum_value": {
+        "total_rmse_deg": 5.373848924432412,
+        "heading_rmse_deg": 3.985911645800241,
+        "inclination_rmse_deg": 1.509351427463857
+      }
+    },
+    "35_disturbed_attached_magnet_4cm": {
+      "tagp_parameters": {
+        "total_rmse_deg": 3.2666563286381223,
+        "heading_rmse_deg": 1.143783521213697,
+        "inclination_rmse_deg": 3.059915929657333
+      },
+      "minimum_value": {
+        "total_rmse_deg": 3.070863290014386,
+        "heading_rmse_deg": 1.0315690481644986,
+        "inclination_rmse_deg": 1.2835455989707627
+      }
+    },
+    "36_disturbed_attached_magnet_5cm": {
+      "tagp_parameters": {
+        "total_rmse_deg": 3.129825824378011,
+        "heading_rmse_deg": 1.5587696271818436,
+        "inclination_rmse_deg": 2.714120505194139
+      },
+      "minimum_value": {
+        "total_rmse_deg": 3.129825824378011,
+        "heading_rmse_deg": 1.2314213990223002,
+        "inclination_rmse_deg": 1.6499188214713745
+      }
+    },
+    "37_disturbed_office_A": {
+      "tagp_parameters": {
+        "total_rmse_deg": 6.816233492432253,
+        "heading_rmse_deg": 6.188450753708483,
+        "inclination_rmse_deg": 2.858389488638673
+      },
+      "minimum_value": {
+        "total_rmse_deg": 5.097899479733957,
+        "heading_rmse_deg": 4.651393841213248,
+        "inclination_rmse_deg": 2.0033658230407094
+      }
+    },
+    "38_disturbed_office_B": {
+      "tagp_parameters": {
+        "total_rmse_deg": 4.521333935671089,
+        "heading_rmse_deg": 3.38170476294783,
+        "inclination_rmse_deg": 3.0015203055518374
+      },
+      "minimum_value": {
+        "total_rmse_deg": 4.521333935671089,
+        "heading_rmse_deg": 3.1204558938450457,
+        "inclination_rmse_deg": 2.1555892870771003
+      }
+    },
+    "39_disturbed_mixed": {
+      "tagp_parameters": {
+        "total_rmse_deg": 3.124673648181366,
+        "heading_rmse_deg": 2.2241547188487982,
+        "inclination_rmse_deg": 2.1948612015961824
+      },
+      "minimum_value": {
+        "total_rmse_deg": 2.941632892936787,
+        "heading_rmse_deg": 2.205219573480024,
+        "inclination_rmse_deg": 1.757844796930966
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+# SPDX-FileCopyrightText: 2021 Daniel Laidig <laidig@control.tu-berlin.de>
+#
+# SPDX-License-Identifier: MIT OR CC-BY-4.0
+
+from pathlib import Path
+import numpy as np
+
+
+def make_ext(modname, pyxfilename):
+    from distutils.extension import Extension
+    p = Path(__file__).resolve().parent
+    sourcePath = p / 'madgwick_mahony_c_code'
+    return Extension(
+        name=modname,
+        sources=[
+            pyxfilename,
+            str(sourcePath / 'MadgwickAHRS.cpp'),
+            str(sourcePath / 'MahonyAHRS.cpp'),
+        ],
+        include_dirs=[
+            str(sourcePath),
+            np.get_include(),
+        ],
+        language='c++',
+    )

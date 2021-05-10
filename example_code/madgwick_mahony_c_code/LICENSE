@@ -1,0 +1,4 @@
+The code in directory was downloaded from https://x-io.co.uk/open-source-imu-and-ahrs-algorithms/ on 2020-07-09
+and slightly modified (wrapped in a class) by Daniel Laidig <laidig@control.tu-berlin.de>.
+ 
+As of 2020-07-09, no licensing information is found on  https://x-io.co.uk/open-source-imu-and-ahrs-algorithms/.

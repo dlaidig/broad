@@ -1,0 +1,444 @@
+{
+  "groups": [
+    {
+      "name": "all_trials",
+      "level": 0,
+      "category": ""
+    },
+    {
+      "name": "undisturbed",
+      "level": 1,
+      "category": ""
+    },
+    {
+      "name": "rotation",
+      "level": 2,
+      "category": "motion"
+    },
+    {
+      "name": "translation",
+      "level": 2,
+      "category": "motion"
+    },
+    {
+      "name": "combined",
+      "level": 2,
+      "category": "motion"
+    },
+    {
+      "name": "slow",
+      "level": 2,
+      "category": "speed"
+    },
+    {
+      "name": "fast",
+      "level": 2,
+      "category": "speed"
+    },
+    {
+      "name": "no_breaks",
+      "level": 2,
+      "category": "breaks"
+    },
+    {
+      "name": "with_breaks",
+      "level": 2,
+      "category": "breaks"
+    },
+    {
+      "name": "disturbed",
+      "level": 1,
+      "category": ""
+    },
+    {
+      "name": "tapping",
+      "level": 2,
+      "category": "disturbance"
+    },
+    {
+      "name": "vibration",
+      "level": 2,
+      "category": "disturbance"
+    },
+    {
+      "name": "stationary_magnet",
+      "level": 2,
+      "category": "disturbance"
+    },
+    {
+      "name": "attached_magnet",
+      "level": 2,
+      "category": "disturbance"
+    },
+    {
+      "name": "office_environment",
+      "level": 2,
+      "category": "disturbance"
+    },
+    {
+      "name": "mixed",
+      "level": 2,
+      "category": "disturbance"
+    }
+  ],
+  "trials": {
+    "01_undisturbed_slow_rotation_A": {
+      "description": "slow rotation movements without translation, no breaks",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "rotation",
+        "slow",
+        "no_breaks"
+      ]
+    },
+    "02_undisturbed_slow_rotation_B": {
+      "description": "undisturbed, slow rotation movements without translation, no breaks",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "rotation",
+        "slow",
+        "no_breaks"
+      ]
+    },
+    "03_undisturbed_slow_rotation_C": {
+      "description": "undisturbed, slow rotation movements without translation, no breaks",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "rotation",
+        "slow",
+        "no_breaks"
+      ]
+    },
+    "04_undisturbed_slow_rotation_with_breaks_A": {
+      "description": "undisturbed, slow rotation movements without translation, three breaks of 10 seconds",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "rotation",
+        "slow",
+        "with_breaks"
+      ]
+    },
+    "05_undisturbed_slow_rotation_with_breaks_B": {
+      "description": "undisturbed, slow rotation movements without translation, three breaks of 10 seconds",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "rotation",
+        "slow",
+        "with_breaks"
+      ]
+    },
+    "06_undisturbed_fast_rotation_A": {
+      "description": "undisturbed, fast rotation movements without translation, no breaks",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "rotation",
+        "fast",
+        "no_breaks"
+      ]
+    },
+    "07_undisturbed_fast_rotation_B": {
+      "description": "undisturbed, fast rotation movements without translation, no breaks",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "rotation",
+        "fast",
+        "no_breaks"
+      ]
+    },
+    "08_undisturbed_fast_rotation_with_breaks_A": {
+      "description": "undisturbed, fast rotation movements without translation, three breaks of 10 seconds",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "rotation",
+        "fast",
+        "with_breaks"
+      ]
+    },
+    "09_undisturbed_fast_rotation_with_breaks_B": {
+      "description": "undisturbed, fast rotation movements without translation, three breaks of 10 seconds",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "rotation",
+        "fast",
+        "with_breaks"
+      ]
+    },
+    "10_undisturbed_slow_translation_A": {
+      "description": "undisturbed, slow translational movements without rotation, no breaks",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "translation",
+        "slow",
+        "no_breaks"
+      ]
+    },
+    "11_undisturbed_slow_translation_B": {
+      "description": "undisturbed, slow translational movements without rotation, no breaks",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "translation",
+        "slow",
+        "no_breaks"
+      ]
+    },
+    "12_undisturbed_slow_translation_C": {
+      "description": "undisturbed, slow translational movements without rotation, no breaks",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "translation",
+        "slow",
+        "no_breaks"
+      ]
+    },
+    "13_undisturbed_slow_translation_with_breaks_A": {
+      "description": "undisturbed, slow translational movements without rotation, three breaks of 10 seconds",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "translation",
+        "slow",
+        "with_breaks"
+      ]
+    },
+    "14_undisturbed_slow_translation_with_breaks_B": {
+      "description": "undisturbed, slow translational movements without rotation, three breaks of 10 seconds",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "translation",
+        "slow",
+        "with_breaks"
+      ]
+    },
+    "15_undisturbed_fast_translation_A": {
+      "description": "undisturbed, fast translational movements without rotation, no breaks",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "translation",
+        "fast",
+        "no_breaks"
+      ]
+    },
+    "16_undisturbed_fast_translation_B": {
+      "description": "undisturbed, fast translational movements without rotation, no breaks",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "translation",
+        "fast",
+        "no_breaks"
+      ]
+    },
+    "17_undisturbed_fast_translation_with_breaks_A": {
+      "description": "undisturbed, fast translational movements without rotation, three breaks of 10 seconds",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "translation",
+        "fast",
+        "with_breaks"
+      ]
+    },
+    "18_undisturbed_fast_translation_with_breaks_B": {
+      "description": "undisturbed, fast translational movements without rotation, three breaks of 10 seconds",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "translation",
+        "fast",
+        "with_breaks"
+      ]
+    },
+    "19_undisturbed_slow_combined_240s": {
+      "description": "undisturbed, slow combined rotational/translational motions, no breaks, long trial (240 s)",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "combined",
+        "slow",
+        "no_breaks"
+      ]
+    },
+    "20_undisturbed_slow_combined_360s": {
+      "description": "undisturbed, slow combined rotational/translational motions, no breaks, long trial (360 s)",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "combined",
+        "slow",
+        "no_breaks"
+      ]
+    },
+    "21_undisturbed_fast_combined": {
+      "description": "undisturbed, fast combined rotational/translational motions, no breaks",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "combined",
+        "fast",
+        "no_breaks"
+      ]
+    },
+    "22_undisturbed_fast_combined_240s": {
+      "description": "undisturbed, fast combined motions, no breaks, long trial (240 s)",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "combined",
+        "fast",
+        "no_breaks"
+      ]
+    },
+    "23_undisturbed_fast_combined_360s": {
+      "description": "undisturbed, fast combined rotational/translational motions, no breaks, long trial (360 s)",
+      "groups": [
+        "all_trials",
+        "undisturbed",
+        "combined",
+        "fast",
+        "no_breaks"
+      ]
+    },
+    "24_disturbed_tapping_A": {
+      "description": "medium-speed rotation movements without translation, no breaks, tapping with finger",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "tapping"
+      ]
+    },
+    "25_disturbed_tapping_B": {
+      "description": "medium-speed translational movements without rotation, no breaks, tapping with finger",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "tapping"
+      ]
+    },
+    "26_disturbed_phone_vibration_A": {
+      "description": "medium-speed rotation movements without translation, no breaks, vibrating smartphone",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "vibration"
+      ]
+    },
+    "27_disturbed_phone_vibration_B": {
+      "description": "medium-speed translational movements without rotation, no breaks, vibrating smartphone",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "vibration"
+      ]
+    },
+    "28_disturbed_stationary_magnet_A": {
+      "description": "medium-speed combined rotational/translational motions, no breaks, small magnet placed in stationary location",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "stationary_magnet"
+      ]
+    },
+    "29_disturbed_stationary_magnet_B": {
+      "description": "medium-speed combined rotational/translational motions, no breaks, small magnet placed in stationary location",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "stationary_magnet"
+      ]
+    },
+    "30_disturbed_stationary_magnet_C": {
+      "description": "medium-speed combined rotational/translational motions, two breaks of 10 seconds, small magnet placed in stationary location",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "stationary_magnet"
+      ]
+    },
+    "31_disturbed_stationary_magnet_D": {
+      "description": "medium-speed combined rotational/translational motions, four breaks of 5 seconds, small magnet placed in stationary location",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "stationary_magnet"
+      ]
+    },
+    "32_disturbed_attached_magnet_1cm": {
+      "description": "medium-speed combined rotational/translational motions, no breaks, magnet attached to board 1 cm next to IMU",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "attached_magnet"
+      ]
+    },
+    "33_disturbed_attached_magnet_2cm": {
+      "description": "medium-speed combined rotational/translational motions, no breaks, magnet attached to board 2 cm next to IMU",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "attached_magnet"
+      ]
+    },
+    "34_disturbed_attached_magnet_3cm": {
+      "description": "medium-speed combined motions, no breaks, magnet attached to board 3 cm next to IMU",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "attached_magnet"
+      ]
+    },
+    "35_disturbed_attached_magnet_4cm": {
+      "description": "medium-speed combined rotational/translational motions, no breaks, magnet attached to board 4 cm next to IMU",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "attached_magnet"
+      ]
+    },
+    "36_disturbed_attached_magnet_5cm": {
+      "description": "medium-speed combined rotational/translational motions, no breaks, magnet attached to board 5 cm next to IMU",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "attached_magnet"
+      ]
+    },
+    "37_disturbed_office_A": {
+      "description": "medium-speed combined rotational/translational motions, no breaks, office environment with various magnetic disturbances",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "office_environment"
+      ]
+    },
+    "38_disturbed_office_B": {
+      "description": "medium-speed combined motions, no breaks, office environment with various magnetic disturbances",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "office_environment"
+      ]
+    },
+    "39_disturbed_mixed": {
+      "description": "slow/fast isolated and combined rotations/translations, with breaks, includes various disturbances",
+      "groups": [
+        "all_trials",
+        "disturbed",
+        "mixed"
+      ]
+    }
+  }
+}
