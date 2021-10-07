@@ -4,8 +4,8 @@ This repository contains the data files and example code for the BROAD benchmark
 
 For more details, see the following publication:
 
-> D. Laidig, M. Caruso, A. Cereatti, T. Seel. BROAD -- A Benchmark for Robust Inertial Orientation Estimation.
-> *Submitted to Data.*
+> D. Laidig, M. Caruso, A. Cereatti, T. Seel. **BROAD—A Benchmark for Robust Inertial Orientation Estimation.**
+> Data, 6 (7):1–20, 2021. <https://doi.org/10.3390/data6070072>
 
 ## Repository Contents
 
