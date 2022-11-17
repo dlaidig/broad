@@ -34,6 +34,9 @@ In order to re-create the results presented in the publications,
 Additionally, the functions provided in `broad_utils.py` can also be used in other scripts, e.g. to calculate the error
 metrics defined in the publication.
 
+Note: If you are using the C implementation of Madgwick's orientation estimation algorithm in your own projects, be
+aware of [this issue](https://github.com/dlaidig/broad/issues/1).
+
 ### Example commands on Linux using a virtual environment
 
 ~~~sh
