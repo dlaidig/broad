@@ -24,15 +24,15 @@ def paramErrorLinePlot(ax, trialNames, results):
 
     def mark(x, y, col, offsetX, offsetY, tagp):
         ax.plot(x, y, col+'o', markersize=4)
-        ax.plot([0, x], [y, y], col, lw=1, zorder=-100)
-        ax.plot([x, x], [0, y], col, lw=1, zorder=-100)
+        ax.plot([0, x], [y, y], col, lw=1)
+        ax.plot([x, x], [0, y], col, lw=1)
         text = f'$\\beta={x}$'
         if tagp:
-            text = f'$\\mathrm{{TAGP}}={y:.2f}^\circ$\n' + text
+            text = f'$\\mathrm{{TAGP}}={y:.2f}^\\circ$\n' + text
         ax.text(x+offsetX, y+offsetY, text, color=col, ha='left', va='top', size=8)
 
     def plot(vals, y, col, label, offsetX, offsetY, tagp=False):
-        ax.plot(vals, y, col,  label=label)
+        ax.plot(vals, y, col,  label=label, zorder=100)
         mark(vals[np.argmin(y)], np.min(y), col, offsetX, offsetY, tagp)
 
     plot(vals, err_total, 'C0', '$e$', -0.038, 1.45, tagp=True)
@@ -80,7 +80,7 @@ def contourPlot(ax, trialNames, results):
 
     ax.plot(tagpParams[paramX], tagpParams[paramY], 'C1o', markersize=4)
     ax.text(tagpParams[paramX]-0.2, tagpParams[paramY]+0.0001,
-            f'$\\mathrm{{TAGP}}={np.min(cost):.2f}^\circ$\n'
+            f'$\\mathrm{{TAGP}}={np.min(cost):.2f}^\\circ$\n'
             f'$K_\\mathrm{{p}}={tagpParams[paramX]}$\n$K_\\mathrm{{i}}={tagpParams[paramY]}$', size=8)
 
     ax.set_xlabel('first parameter (gain $K_\\mathrm{p}$)')
