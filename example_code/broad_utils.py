@@ -105,7 +105,7 @@ def quatmult(q1, q2):
     assert q2.shape == (N, 4) or q2.shape == (1, 4)
 
     # actual quaternion multiplication
-    q3 = np.zeros((N, 4), np.float)
+    q3 = np.zeros((N, 4), float)
     q3[:, 0] = q1[:, 0] * q2[:, 0] - q1[:, 1] * q2[:, 1] - q1[:, 2] * q2[:, 2] - q1[:, 3] * q2[:, 3]
     q3[:, 1] = q1[:, 0] * q2[:, 1] + q1[:, 1] * q2[:, 0] + q1[:, 2] * q2[:, 3] - q1[:, 3] * q2[:, 2]
     q3[:, 2] = q1[:, 0] * q2[:, 2] - q1[:, 1] * q2[:, 3] + q1[:, 2] * q2[:, 0] + q1[:, 3] * q2[:, 1]
@@ -120,7 +120,7 @@ def quatmult(q1, q2):
 def invquat(q):
     """Calculates the inverse of unit quaternions."""
 
-    q = np.asarray(q, np.float)
+    q = np.asarray(q, float)
     if len(q.shape) != 2:
         assert q.shape == (4,)
         qConj = q.copy()
@@ -142,7 +142,7 @@ def quatFromRotMat(R):
     y_sq = (1 - R[0, 0] + R[1, 1] - R[2, 2]) / 4
     z_sq = (1 - R[0, 0] - R[1, 1] + R[2, 2]) / 4
 
-    q = np.zeros((4,), np.float)
+    q = np.zeros((4,), float)
     q[0] = np.sqrt(w_sq)
     q[1] = np.copysign(np.sqrt(x_sq), R[2, 1] - R[1, 2])
     q[2] = np.copysign(np.sqrt(y_sq), R[0, 2] - R[2, 0])
